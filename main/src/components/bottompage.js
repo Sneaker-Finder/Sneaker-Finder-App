@@ -3,11 +3,11 @@ import Upload from './upload'
 
 const Bottompage = (props) => {
     return (
-    <div class="grid gap-x-8 bg-black w-full h-screen grid-cols-2 pr-8">
-        <div class="justify-self-end">
-            <div class="text-6xl text-white pt-28">
-                <h1>Let's Help You</h1>
-                <h1 class="p-8">Find Your Shoe</h1>
+    <div className="flex gap-x-8 bg-black w-full h-screen pr-8">
+        <div className="justify-self-end">
+            <div id="main-text" className="justify-items-end text-xl md:text-3xl lg:text-5xl hidden md:block text-white pt-28 pl-14">
+                <h1 className="justify-self-end">Let's Help You</h1>
+                <h1 className="p-3 justify-self-end">Find Your Shoe</h1>
             </div>
         </div>
         <Upload/>

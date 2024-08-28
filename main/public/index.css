@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "Horizon";
+    src: url("/assets/fonts/horizon.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#main-text {
+    font-family: 'Horizon', sans-serif;
+}
+
 #background {
     background-color: #a2fbfb;
 }
