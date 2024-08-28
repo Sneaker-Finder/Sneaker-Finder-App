@@ -1,6 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/navbar';
+import Bottompage from './components/bottompage';
+import Middledesign from './components/middledesign';
 function App() {
     // <div className="App">
     //   <header className="App-header">
@@ -20,7 +21,13 @@ function App() {
     // </div>
   // );
 
-  return (<NavBar name="Logo"/>)
+  return (
+    <div className="App">
+        <NavBar name="Logo"/>
+        <Middledesign />
+        <Bottompage />
+    </div>
+  )
 }
 
 export default App;

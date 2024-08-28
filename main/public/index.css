@@ -1,0 +1,10 @@
+#background {
+    background-color: #a2fbfb;
+}
+
+#upload-box {
+    box-shadow: 25px 25px 1px 1px #a2fbfb;
+    border: 6px solid black;
+    align-items: center;
+    border-radius: 25px;
+}
